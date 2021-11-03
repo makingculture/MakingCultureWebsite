@@ -5,14 +5,7 @@ let curIndex = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  // background(220);
   frameRate(3);
-
-  // textSize(50);
-  // textAlign(CENTER);
-  // text('COMING SOON', windowWidth/2, windowHeight/2);
-  
-
 }
 
 function draw() {
