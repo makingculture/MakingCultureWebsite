@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Making Culture</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+
+    <!-- install global scripst -->
+    <!-- <script src="assets/js/scripts/arena-import.js"defer="defer"></script> -->
+
+    <!-- install libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="assets/js/libraries/arena.js"></script>
+    <script src="/assets/js/libraries/p5.min.js"></script>
+
+    <!-- install objects -->
+    <script src="assets/js/objects/block.js"></script>
+
+
+  </head>
+
+
+  <body>
+
+    <!-- Navigation Bar -->
+    <div id="navDiv">
+      <script src="/assets/js/scripts/import-navbar.js"></script>
+    </div>
+
+    <section id="page-description"> 
+      <p>An overview of our current studio interests, research, thoughts and process.
+        We welcome collaboration via <a href="https://www.are.na/chris-bamborough" target="_blank">Are.na</a>
+      </p>
+    </section>
+
+
+
+
+    <section id="controlls">  
+			<nav id="filters">
+				<ul id="filter_list">
+					<li><input type="checkbox" id="all" checked class="filter_checkbox " onclick="filterToggle(true)"><label class="filter_label" for="all">All</label></li>
+				</ul>
+			</nav>
+      <input type="range" id="size_slider" name="size_slider" min="50" max="500" value="300">
+		</section>
+
+    <main id="channel_content">
+			<article id="placeholder" class="block"></article>
+      <script src="assets/js/scripts/arena-import.js"defer="defer"></script>
+		</main>
+
+    <!-- Are.na Import -->
+    <!-- <div id="arena-import">
+      <script src="/assets/js/scripts/arena-import.js"></script>
+      <p>The grid will appear here</p>
+    </div> -->
+
+    <!-- Footer -->
+    <footer>
+      <!-- <script src="/assets/js/scripts/import-footer.js"></script> -->
+    </footer>
+
+
+  </body>
+
+
+</html>

@@ -9,17 +9,34 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
 
+    <!-- install libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="assets/js/libraries/arena.js"></script>
+    <script src="/assets/js/libraries/p5.min.js"></script>
 
-    <!-- <script src="/assets/js/libraries/p5.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
-    <!-- <script src="/assets/js/libraries/p5.sound.min.js"></script> -->
+    <!-- install objects -->
+    <script src="assets/js/objects/arena-block.js"></script>
+
+
   </head>
 
 
   <body>
 
-    <script src="/assets/js/navbar.js"></script>
-    <script src="/assets/js/comingsoon.js"></script>
+    <!-- Navigation Bar -->
+    <div id="navDiv">
+      <script src="/assets/js/scripts/import-navbar.js"></script>
+    </div>
+
+    <!-- Animation Canvas -->
+    <div id="backgroundCanvas">
+      <script src="/assets/js/scripts/comingsoon.js"></script>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <script src="/assets/js/scripts/import-footer.js"></script>
+		</footer>
 
   </body>
 
