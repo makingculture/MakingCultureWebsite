@@ -35,9 +35,9 @@ const s = ( sketch ) => {
     navlink1.parent('nav-list');
     navlink1.class('nav-item');
 
-    // let navlink2 = sketch.createElement('li','<a href="/projects.html">Projects</a>');
-    // navlink2.parent('nav-list');
-    // navlink2.class('nav-item');
+    let navlink2 = sketch.createElement('li','<a href="/projects.html">Projects</a>');
+    navlink2.parent('nav-list');
+    navlink2.class('nav-item');
 
     // let navlink3 = sketch.createElement('li','<a href="/writing.html">Writing</a>');
     // navlink3.parent('nav-list');

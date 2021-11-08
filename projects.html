@@ -9,17 +9,39 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
 
+    <!-- install reveal.js styles -->
+    <!-- <link rel="stylesheet" href="/assets/css/reveal/reset.css"> -->
+    <link rel="stylesheet" href="/assets/css/reveal/reveal.css">
+    <link rel="stylesheet" href="/assets/css/reveal/theme.css">
 
-    <!-- <script src="/assets/js/libraries/p5.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
-    <!-- <script src="/assets/js/libraries/p5.sound.min.js"></script> -->
+    <!-- install libraries -->
+    <script src="/assets/js/libraries/p5.min.js"></script>
+
   </head>
 
 
   <body>
 
-    <script src="/assets/js/navbar.js"></script>
-    <!-- <script src="/assets/js/comingsoon.js"></script> -->
+    <!-- Navigation Bar -->
+    <div id="navDiv">
+      <script src="/assets/js/modules/import-navbar.js"></script>
+    </div>
+
+    <div class="reveal">
+			<div class="slides">
+				<section>A collection of projects - swipe through to view.</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="/assets/js/libraries/reveal.js"></script>
+
+		<script>
+			Reveal.initialize();
+		</script>
+
+
+
 
   </body>
 

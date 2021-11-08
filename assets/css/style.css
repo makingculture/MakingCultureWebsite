@@ -1,3 +1,16 @@
+
+
+/* Global Styles — (body, paragraphs, lists, etc) */
+/* Header */
+/* Page Structure */
+/* Headings */
+/* Text Styles */
+/* Navigation */
+/* Forms */
+/* Comments */
+/* Extras */
+
+
 :root {
   /*   color variables */
   --clr-primary: #6aeeb5;
@@ -22,7 +35,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
+	font-family: Montserrat, sans-serif;
 	line-height: 1.3em;
 	font-size: 1em;
 }
@@ -53,14 +66,12 @@ header a:hover, .pop_up_template a:hover, a.article_arena_link:hover, .view_inne
 }
 
 /* Header Navigation Styling */
-
+/* 
 header {
 	display: flex;
 	padding-bottom: 1em;
 	border-bottom: 2px dotted black;
-	position: relative;
-	margin-bottom: 1em;
-}
+} */
 
 
 
@@ -72,6 +83,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: sticky;
+  top: 1em;
+  z-index: 1000;
+  margin-bottom: 1em;
 }
 
 .nav-item {

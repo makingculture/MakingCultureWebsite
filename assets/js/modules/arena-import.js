@@ -22,7 +22,6 @@ function appendFilter( title, slug ){
 	li.append(checkbox); li.append(inputLabel); list.append(li);
 }
 
-
 /* PAGE CONTROLLS */
 
 /* SLIDER */
@@ -48,7 +47,9 @@ function toggleStyle(create, checkbox){
 		styleElement.remove();
 	}
 }
+
 const allFilter = document.getElementById("all");
+
 function filterToggle(all){
 	const channels = document.querySelectorAll('.channel_filter_checkbox');
 	if( !all ){

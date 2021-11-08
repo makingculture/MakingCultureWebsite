@@ -3,5 +3,5 @@
     "*.js",
     "assets/js/libraries/*.js",
     "c:\\Users\\mail.DESKTOP-VS95QMN\\.vscode\\extensions\\samplavigne.p5-vscode-1.2.8\\p5types\\global.d.ts"
-, "assets/sketch.js"  ]
+, "assets/sketch.js", "assets/js/libraries/reveal"  ]
 }
