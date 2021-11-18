@@ -1,0 +1,21 @@
+@media (max-width: 720px) { 
+	footer {
+		font-size: 0.8em;
+	}
+	article {
+		width: 200px;
+		height: 200px;
+	}
+	.expanded .view, .article_content {
+		width: 100%;
+	}
+	.article_content {
+		padding-left: 0;
+	}
+}
+@media (max-width: 375px) { 
+	article {
+		width: 155px;
+		height: 155px;
+	}
+}
