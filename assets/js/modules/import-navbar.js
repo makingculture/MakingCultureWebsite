@@ -31,13 +31,13 @@ const s = ( sketch ) => {
     logo.parent('nav-list');
     logo.class('nav-item');
 
-    let navlink1 = sketch.createElement('li','<a href="/studio.html">Studio</a>');
-    navlink1.parent('nav-list');
-    navlink1.class('nav-item');
+    // let navlink1 = sketch.createElement('li','<a href="/studio.html">Studio</a>');
+    // navlink1.parent('nav-list');
+    // navlink1.class('nav-item');
 
-    let navlink2 = sketch.createElement('li','<a href="/projects.html">Projects</a>');
-    navlink2.parent('nav-list');
-    navlink2.class('nav-item');
+    // let navlink2 = sketch.createElement('li','<a href="/projects.html">Projects</a>');
+    // navlink2.parent('nav-list');
+    // navlink2.class('nav-item');
 
     // let navlink3 = sketch.createElement('li','<a href="/writing.html">Writing</a>');
     // navlink3.parent('nav-list');
