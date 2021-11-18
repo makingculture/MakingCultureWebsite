@@ -1,0 +1,14 @@
+:root {
+    /*   color variables */
+    --clr-primary: #6aeeb5;
+    --clr-primary-hover: #29e6a7;
+    --clr-primary-dark: #039d69;
+    --clr-gray100: #f0f7f8;
+    --clr-gray220: rgb(220, 220, 220);
+  
+    /*   border radius */
+    --radius: 0.2rem;
+  
+    /* checkbox styles */
+    --primary: black;
+  }

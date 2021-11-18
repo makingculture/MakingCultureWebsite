@@ -1,0 +1,17 @@
+@import 'global.css';
+@import 'variable.css';
+@import 'typography.css';
+@import 'hero.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'arena.css';
+@import 'canvas.css';
+@import 'media.css';
+
+main {
+	padding-bottom: 10em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
