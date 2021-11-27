@@ -1,3 +1,63 @@
+header a:hover, .pop_up_template a:hover, a.article_arena_link:hover, .view_inner a:hover, .article_source_wrapper a:hover {
+	color: white;
+	background: var(--primary);
+}
+
+.nav-list {
+    /* background: white; */
+    /* box-shadow: 0px 0px 10px var(--clr-gray200); */
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 1em;
+    z-index: 1000;
+    margin-bottom: 1em;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+  }
+  
+  .nav-item a:hover {
+    color: var(--clr-primary-dark);
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  
+  .btn-primary {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: var(--clr-primary);
+    border: none;
+    outline: none;
+    border-radius: var(--radius);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+  
+  .btn-primary:hover {
+    background: var(--clr-primary-hover);
+  }
+
+
+
+/*------------------------------------*\
+  #CONTROLS SECTION
+\*------------------------------------*/
 
 section#controlls {
 	display: flex;
@@ -158,12 +218,6 @@ article.expanded .size_button:hover:after {
 article.undefined {
 	order: -2000000000 !important;
 }
-
-
-
-
-
-
 
 .view {
 	width: 100%;
