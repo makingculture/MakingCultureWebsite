@@ -3,10 +3,10 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: rgb(220, 220, 220);
+  --r-background-color: black;
   --r-main-font: Lato, sans-serif;
   --r-main-font-size: 40px;
-  --r-main-color: #000;
+  --r-main-color: white;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Montserrat, sans-serif;

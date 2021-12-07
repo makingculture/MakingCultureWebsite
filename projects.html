@@ -1,49 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Making Culture</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+  <title>Making Culture</title>
 
-    <!-- install reveal.js styles -->
-    <!-- <link rel="stylesheet" href="/assets/css/reveal/reset.css"> -->
-    <link rel="stylesheet" href="/assets/css/reveal/reveal.css">
-    <link rel="stylesheet" href="/assets/css/reveal/theme.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+  <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css">
 
-    <!-- install libraries -->
-    <script src="/assets/js/libraries/p5.min.js"></script>
+  <!-- install reveal.js styles -->
+  <!-- <link rel="stylesheet" href="/assets/css/reveal/reset.css"> -->
+  <link rel="stylesheet" href="/assets/css/reveal/reveal.css">
+  <link rel="stylesheet" href="/assets/css/reveal/theme.css">
 
-  </head>
+  <!-- install libraries -->
+  <script src="/assets/js/libraries/p5.min.js"></script>
+
+</head>
 
 
-  <body>
+<body>
 
-    <!-- Navigation Bar -->
-    <div id="navDiv">
-      <script src="/assets/js/modules/import-navbar.js"></script>
+  <!-- Logo Nvigation Canvas -->
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content logo-text logo-large">
+      <a href="/">Welcome</a>
+      <a href="/studio.html">Studio</a>
+      <!-- <a href="/projects.html">Projects</a> -->
     </div>
+  </div>
 
-    <div class="reveal">
-			<div class="slides">
-				<section>A collection of projects - swipe through to view.</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+  <section class="logo-block logo-text">
+    <div class="dropdown">
+      <div class="logo-pos logo-large" onclick="openNav()"> MC </div>
+      <div class="dropdown-content logo-text logo-small">
+        <p class="logo-text logo-small">Click Me!</p>
+      </div>
+  </section>
 
-		<script src="/assets/js/libraries/reveal.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
 
-		<script>
-			Reveal.initialize();
-		</script>
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
 
 
 
 
-  </body>
+  <div class="reveal">
+    <div class="slides">
+      <section>A collection of projects - swipe through to view.</section>
+      <section>Slide 2</section>
+    </div>
+  </div>
+
+  <script src="/assets/js/libraries/reveal.js"></script>
+
+  <script>
+    Reveal.initialize();
+  </script>
+
+
+
+
+</body>
 
 
 </html>

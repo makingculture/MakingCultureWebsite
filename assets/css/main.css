@@ -28,11 +28,9 @@
 @import './reveal/theme.css'; */
 
 main {
-	padding-bottom: 10em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
-	height: 1500px; /* Used in this example to enable scrolling */
+	padding-bottom: 10em;
 }
 

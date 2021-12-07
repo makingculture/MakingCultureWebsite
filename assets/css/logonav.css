@@ -90,6 +90,7 @@ ion-icon {
   top: 25%;
   width: 100%;
   margin-top: 30px;
+  padding-left: 2rem;
   line-height: 1.1em;
   text-align: left;
 }
