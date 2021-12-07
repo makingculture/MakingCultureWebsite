@@ -1,21 +1,45 @@
-@media (max-width: 720px) { 
-	footer {
-		font-size: 0.8em;
+@media (max-width: 835px) {
+
+	.logo-pos {
+		padding-top: 0rem;
 	}
-	article {
-		width: 200px;
-		height: 200px;
+
+	.logo-large {
+		font-size: 4rem;
 	}
-	.expanded .view, .article_content {
-		width: 100%;
+
+	.logo-small {
+		font-size: 2rem;
 	}
-	.article_content {
-		padding-left: 0;
+
+}
+
+@media (max-width: 570px) {
+
+	.logo-pos {
+		padding-top: 0rem;
+	}
+
+	.logo-large {
+		font-size: 2.5rem;
+	}
+
+	.logo-small {
+		font-size: 0.5rem;
 	}
 }
-@media (max-width: 375px) { 
-	article {
-		width: 155px;
-		height: 155px;
+
+@media (max-width: 400px) {
+
+	.logo-pos {
+		padding-top: 0rem;
+	}
+
+	.logo-large {
+		font-size: 1.5rem;
+	}
+
+	.logo-small {
+		font-size: 0.5rem;
 	}
 }

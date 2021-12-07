@@ -6,9 +6,6 @@ const e = ( sketch ) => {
 
   sketch.setup = () => {
 
-
-    sketch.print('Im working here!');
-
     var canvasDiv = document.getElementById('backgroundCanvas');
     var width = canvasDiv.offsetWidth;
     var height = canvasDiv.offsetHeight;

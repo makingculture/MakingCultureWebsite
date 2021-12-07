@@ -5,10 +5,12 @@
     --clr-primary-dark: #039d69;
     --clr-gray100: #f0f7f8;
     --clr-gray220: rgb(220, 220, 220);
+    --clr-black: #000000;
+    --clr-white: white;
   
     /*   border radius */
     --radius: 0.2rem;
   
     /* checkbox styles */
-    --primary: black;
+    --primary: white;
   }
