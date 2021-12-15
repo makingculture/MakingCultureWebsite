@@ -7,19 +7,16 @@
 
   <title>Making Culture</title>
 
-  <!-- install main styles -->
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
   <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css">
 
-  <!-- install libraries -->
-  <script src="/assets/js/libraries/p5.min.js"></script>
 
-  <!-- Icon Scripts -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <!-- <script src="/assets/js/libraries/p5.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <!-- <script src="/assets/js/libraries/p5.sound.min.js"></script> -->
 </head>
+
 
 <body>
 
@@ -53,26 +50,27 @@
     }
   </script>
 
-  <!-- Welcome Canvas -->
-  <!--<div id="backgroundCanvas">
-      <script src="/assets/js/modules/welcome.js"></script>
-    </div>-->
+    <!-- Blog Block -->
 
-  <!-- Welcome Block -->
+    <section class="welcome-block">
+      <div class="welcomeText logo-text logo-large">
+        BLOG
+      </div>
+    </section>
 
-  <section class="welcome-block">
-    <div class="welcomeText logo-text logo-large">
-      WE ARE <br>
-      <span class="logo-pos">
-        MAKING <br>
-        CULTURE<br>
-      </span>
-      AN <br>
-      ARCHITECTURE <br>
-      STUDIO
-    </div>
-  </section>
 
+  <!-- DropinBlog -->
+
+  <div id="dib-posts"></div>
+
+
+
+
+
+  <script>
+    var dib_id = '7e08ff14-a3b2-4f1f-a028-f253feb5926f';
+  </script>
+  <script src="https://io.dropinblog.com/js/embed.js"></script>
 
 
 

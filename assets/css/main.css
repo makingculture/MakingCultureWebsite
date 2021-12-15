@@ -11,18 +11,18 @@
  * Header...............The main page header
  * Media.................Control sizes on mobiles.
  * Variables.............Control the ::root variables.
- * Welcome...............Control the main.
+ * Header...............Control the header.
  */
 
 @import 'global.css';
 @import 'variable.css';
-@import 'welcome.css';
-@import 'logonav.css';
+@import 'header.css';
 @import 'footer.css';
 @import 'arena.css';
 @import 'canvas.css';
 @import 'media.css';
 @import 'projects.css';
+@import 'dropinblog.css';
 /* @import './reveal/reset.css';
 @import './reveal/reveal.css';
 @import './reveal/theme.css'; */

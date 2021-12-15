@@ -12,6 +12,10 @@
 		font-size: 2rem;
 	}
 
+	.article_content {
+		padding: 8rem;
+	}
+
 }
 
 @media (max-width: 570px) {
@@ -27,6 +31,10 @@
 	.logo-small {
 		font-size: 0.5rem;
 	}
+
+	.article_content {
+		padding: 1rem;
+	}
 }
 
 @media (max-width: 400px) {
@@ -41,5 +49,9 @@
 
 	.logo-small {
 		font-size: 0.5rem;
+	}
+
+	.article_content {
+		padding: 2rem;
 	}
 }
