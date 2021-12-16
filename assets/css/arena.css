@@ -95,6 +95,17 @@ section#controlls {
 	pointer-events: auto;
 	color: white;
 }
+#size_slider {
+	margin-bottom: 1em;
+	pointer-events: auto;
+}
+
+
+
+/*------------------------------------*\
+  #ARTICLE CONTROL
+\*------------------------------------*/
+
 
 article {
 	width: 300px;
@@ -125,15 +136,16 @@ article.expanded iframe {
 #channel_content article.expanded {
 	width: 100%;
 	height: auto;
-	border-color: transparent;
-	background: rgba(255,255,255,.8);
+	/* border-color: transparent; */
+	/* border: 2px ridge; */
+	background: black;
 	cursor: auto;
 	margin-left: 0;
 	margin-right: 0;
 	padding: 1rem;
 	display: flex;
 	flex-wrap: wrap;
-	border: 2px ridge;
+	
 }
 
 .size_button {
@@ -176,9 +188,10 @@ article.expanded .size_button:hover:after {
 }
 .article_content {
 	display: none;
-	width: 30%;
+	width: 100%;
 	padding-left: 1rem;
 	box-sizing: border-box;
+	padding: 10rem;
 }
 .expanded .article_content {
 	display: block;
@@ -233,11 +246,12 @@ article.undefined {
 	line-height: 1.3em;
 }
 .expanded .view {
-	width: 60%;
+	/* width: 60%; */
 	height: auto;
-	flex-grow: 2;
+	width: 100%;
+	flex-grow: 1;
 	line-height: inherit;
-	background: white;
+	/* background: white; */
 }
 .type_Text .view {
 	align-items: flex-start;
@@ -258,3 +272,4 @@ article.undefined {
 .channel_title {
 	margin-top: 0;
 }
+

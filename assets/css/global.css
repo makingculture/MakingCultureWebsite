@@ -16,12 +16,19 @@ body {
 	font-family: Montserrat, sans-serif;
 	background: var(--clr-black);
 	padding: 2em;
+	color: white;
 }
 
 a {
 	color: var(--primary);
 	text-decoration: none;
 }
+
+a:link {
+	text-decoration: underline;
+}
+
+
 
 img {
 	padding: 0;

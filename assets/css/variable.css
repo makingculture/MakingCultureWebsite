@@ -5,7 +5,7 @@
     --clr-primary-dark: #039d69;
     --clr-gray100: #f0f7f8;
     --clr-gray220: rgb(220, 220, 220);
-    --clr-black: #000000;
+    --clr-black: black;
     --clr-white: white;
   
     /*   border radius */
