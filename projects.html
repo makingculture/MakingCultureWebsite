@@ -7,7 +7,7 @@
 
   <title>Making Culture</title>
 
-  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/modules_reveal.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
   <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css">
 
@@ -19,28 +19,35 @@
   <!-- install libraries -->
   <script src="/assets/js/libraries/p5.min.js"></script>
 
+  <!-- Icon Scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 
 <body>
 
-  <!-- Logo Nvigation Canvas -->
+  <!-- Logo Navigation Canvas -->
 
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content logo-text logo-large">
-      <a href="/">Welcome</a>
-      <a href="/studio.html">Studio</a>
-      <!-- <a href="/projects.html">Projects</a> -->
+    <div class="overlay-content logo-text logo-medium">
+      <a href="/index.html">About</a>
+      <!-- <a href="/studio-arena.html">Workshop</a> -->
+      <a href="/studio-social.html">Workshop</a>
+      <a href="/projects.html">Projects</a>
+      <a href="https://medium.com/making-culture">Journal</a>
+      <a href="https://instagram.com/making_culture" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
     </div>
   </div>
 
   <section class="logo-block logo-text">
     <div class="dropdown">
-      <div class="logo-pos logo-large" onclick="openNav()"> MC </div>
-      <div class="dropdown-content logo-text logo-small">
-        <p class="logo-text logo-small">Click Me!</p>
-      </div>
+      <div class="logo-col logo-medium" onclick="openNav()"> MENU </div>
+      <!-- <div class="dropdown-content logo-text logo-small">Menu</div> -->
   </section>
 
   <script>
@@ -53,13 +60,17 @@
     }
   </script>
 
-
-
+  <!-- END of Logo Navigation Canvas -->
 
   <div class="reveal">
     <div class="slides">
-      <section>A collection of projects - swipe through to view.</section>
-      <section>Slide 2</section>
+			<!-- Example of nested vertical slides -->
+      <section>
+        <section>
+          <!-- <h2>Basement Level 1</h2> -->
+          <p>Coming Soon.</p>
+        </section>
+      </section>
     </div>
   </div>
 

@@ -6,7 +6,7 @@
 
     <title>Making Culture</title>
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/modules_main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
     <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css">
 
@@ -20,28 +20,33 @@
     <!-- install objects -->
     <script src="assets/js/objects/block.js"></script>
 
+    <!-- Icon Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
   </head>
 
 
   <body>
 
-  <!-- Logo Navigation Canvas -->
-
+      <!-- Logo Navigation Canvas -->
+  
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content logo-text logo-large">
-      <a href="/">Welcome</a>
-      <a href="/studio.html">Studio</a>
-      <!-- <a href="/projects.html">Projects</a> -->
+    <div class="overlay-content logo-text logo-medium">
+      <a href="/studio.html">Workshop</a>
+      <a href="/projects.html">Projects</a>
+      <a href="https://medium.com/making-culture">Journal</a>
+      <a href="https://instagram.com/making_culture" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
     </div>
   </div>
 
   <section class="logo-block logo-text">
     <div class="dropdown">
-      <div class="logo-pos logo-large" onclick="openNav()"> MC </div>
-      <div class="dropdown-content logo-text logo-small">
-        <p class="logo-text logo-small">Click Me!</p>
-      </div>
+      <div class="logo-pos logo-medium" onclick="openNav()"> MENU </div>
+      <!-- <div class="dropdown-content logo-text logo-small">Menu</div> -->
   </section>
 
   <script>
@@ -54,17 +59,23 @@
     }
   </script>
 
+  <!-- END of Logo Navigation Canvas -->
+    
     <!-- Studio Page Desription -->
     
-    <section class = "welcome-section">
-      <div class = "welcomeText logo-text logo-large">
-        STUDIO
-      </div>
+    <section class = "welcome-section padding-bottom-small padding-top-small padding-right-small">
       <div class = "welcomeText logo-text logo-small">
-        CURRENT INTERESTS<br>
-        RESEARCH<br>
-        THOUGHTS<br>
-        PROCESS
+        Our work engages with distributed design, <br> 
+        the circular economy, material culture,<br> 
+        and our evolving relationship with <br> 
+        the built environment. <br> 
+        <br> 
+      </div>
+      <div class="aboutText about-body-text">
+    
+        Navigate the grid for an ongoing catalogue of processes, throughts and inspirations.<br>
+        Organised using <a ref="https://www.are.na/christopher-bamborough">are.na</a>.  
+
       </div>
     </section> 
 
@@ -72,7 +83,7 @@
 
     <style id="sliderStyle" type="text/css"></style>
 
-    <section id="controlls">  
+    <section id="controls">  
 			<nav id="filters">
 				<ul id="filter_list">
 					<li><input type="checkbox" id="all" checked class="filter_checkbox " onclick="filterToggle(true)"><label class="filter_label" for="all">All</label></li>

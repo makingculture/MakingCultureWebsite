@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Making Culture</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+    <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css">
+
+    <!-- install global scripst -->
+    <!-- <script src="assets/js/scripts/arena-import.js"defer="defer"></script> -->
+
+    <!-- install libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="/assets/js/libraries/arena.js"></script>
+
+    <!-- install objects -->
+    <script src="assets/js/objects/block.js"></script>
+
+  </head>
+
+
+  <body>
+
+  <!-- Logo Navigation Canvas -->
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content logo-text logo-medium">
+      <!-- <a href="/">Home</a> -->
+      <a href="/about.html">About</a>
+      <a href="/studio.html">Studio</a>
+      <a href="/projects.html">Projects</a>
+      <a href="https://medium.com/making-culture">Archiculture</a>
+      <a href="https://instagram.com/making_culture" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </div>
+  </div>
+
+  <section class="logo-block logo-text">
+    <div class="dropdown">
+      <div class="logo-pos logo-large" onclick="openNav()"> Menu </div>
+      <!-- <div class="dropdown-content logo-text logo-small">Click Me!</div> -->
+  </section>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+
+
+
+    <!-- About Page Desription -->
+    
+    <section class="about-block padding-right-small">
+
+      <!-- <div class="aboutText logo-text logo-medium">
+        <span class="logo-pos">
+          WHO?<br>
+        </span>
+      </div>
+
+      <div class="aboutText about-body-text padding-right-large padding-top-small">
+        We are an architecture studio based in Sydney, Australia.
+      </div> -->
+
+      <div class="aboutText logo-text logo-medium padding-top-small">
+        <span class="logo-pos">
+          WHAT?<br>
+        </span>
+      </div>
+
+      <div class="aboutText about-body-text padding-right-large padding-top-small">
+        We design, make and write about architecture <br>
+        with special focus on
+        <span class="logo-pos">
+        culture & technology<br>
+        </span>
+      </div>
+
+      <div class="aboutText logo-text logo-medium padding-top-small">
+        <span class="logo-pos">
+          WHY?<br>
+        </span>
+      </div>
+
+      <div class="aboutText about-body-text padding-right-large padding-top-small">
+        The studio operates as a vehicle to explore architectural form<br>
+        while responding to today's pressing issues of<br>
+        <span class="logo-pos">
+        carbon pollution
+        </span>
+        and 
+        <span class="logo-pos">
+        excessive waste<br>
+        </span>
+      </div>
+      </section>
+
+  </body>
+
+
+</html>

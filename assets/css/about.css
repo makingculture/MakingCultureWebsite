@@ -1,0 +1,9 @@
+.about-block {
+  padding: 100 px;
+}
+
+.aboutText {
+  color: grey;
+  line-height: 1.1em;
+  text-align: right;
+}
