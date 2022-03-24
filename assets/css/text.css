@@ -1,0 +1,32 @@
+/* Logo Navigation Styling */
+
+.logo-col {
+  /* display: inline-block; */
+  color: white;
+  /* padding-top: 0rem;
+  padding-bottom: 0px; */
+}
+
+.logo-text {
+  font-family: gothic-open-shaded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-large {
+  font-size: 6.25rem;
+}
+
+.logo-medium {
+  font-size: 4rem;
+}
+
+.logo-small {
+  font-size: 2rem;
+}
+
+/* Text Styling */
+
+.text-medium {
+  font-size: 1.2rem;
+}

@@ -1,15 +1,14 @@
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
   --r-background-color: black;
-  --r-main-font: Lato, sans-serif;
+  --r-main-font: Arial, Helvetica, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: white;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Montserrat, sans-serif;
+  --r-heading-font: Arial, Helvetica, sans-serif;
   --r-heading-color: #000;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -22,7 +21,7 @@
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #00008B;
+  --r-link-color: #00008b;
   --r-link-color-dark: #00003f;
   --r-link-color-hover: #0000f1;
   --r-selection-background-color: rgba(0, 0, 0, 0.99);
@@ -39,7 +38,7 @@
   font-size: var(--r-main-font-size);
   font-weight: normal;
   color: var(--r-main-color);
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -252,13 +251,13 @@
   border-bottom: 1px solid;
 }
 
-.reveal table th[align=center],
-.reveal table td[align=center] {
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
   text-align: center;
 }
 
-.reveal table th[align=right],
-.reveal table td[align=right] {
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
   text-align: right;
 }
 

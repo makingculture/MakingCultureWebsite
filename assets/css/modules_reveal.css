@@ -1,0 +1,47 @@
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+/**
+ * CONTENTS
+ * Arena...............Ajdusts the are.na import page.
+ * Global...............Globally-available variables and config.
+ * Canvas...............Control canvas sketch area.
+ * Footer...............The main page footer. 
+ * Header...............The main page header
+ * Media.................Control sizes on mobiles.
+ * Variables.............Control the ::root variables.
+ * Header...............Control the header.
+ */
+
+@import "about.css";
+@import "arena.css";
+@import "canvas.css";
+@import "footer.css";
+@import "global.css";
+@import "menu.css";
+@import "padding.css";
+@import "text.css";
+@import "variable.css";
+@import "media.css";
+
+@import "./reveal/reset.css";
+@import "./reveal/reveal.css";
+@import "./reveal/theme.css";
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10em;
+}
+
+/* Div for Nav Logo */
+
+.logo-block {
+  /* overflow: hidden; */
+  /* position: fixed; */
+  z-index: 2;
+  padding-left: 0.5rem;
+  padding-top: 0.7rem;
+}

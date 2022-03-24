@@ -5,46 +5,56 @@
 }
 
 html {
-	margin: 0;
-	padding: 0;
-	font-family: gothic-open-shaded, sans-serif;
-	/* line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-family: gothic-open-shaded, sans-serif;
+  /* line-height: 1.3em;
 	font-size: 1em; */
 }
 
 body {
-	font-family: Montserrat, sans-serif;
-	background: var(--clr-black);
-	padding: 2em;
-	color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--clr-black);
+  /* padding: 2em; */
+  color: white;
 }
 
 a {
-	color: var(--primary);
-	text-decoration: none;
+  color: var(--primary);
+  text-decoration: none;
 }
 
 a:link {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-
-
 
 img {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-	margin-top: 1em;
-	line-height: 1.3em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1em;
+  line-height: 1.3em;
 }
 blockquote {
-	font-style: italic;
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: .6em;
-	border-left: 1px solid #aaa;
+  font-style: italic;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0.6em;
+  border-left: 1px solid #aaa;
 }
-h1, h2, h3, h4 {
-	font-weight: normal;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
 }
+
+/* .master_div {
+  border: 100 px;
+} */
